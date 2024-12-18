@@ -298,3 +298,15 @@ body {
 	}
 	// *** end of right side section ***
 }
+
+// Class for screen-readers
+.sr-only {
+	position: absolute;
+	width: 0.1rem;
+	height: 0.1rem;
+	margin: -0.1rem;
+	padding: 0;
+	border: 0;
+	clip: rect(0, 0, 0, 0);
+	overflow: hidden;
+}
