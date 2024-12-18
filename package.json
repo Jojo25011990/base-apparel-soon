@@ -1,0 +1,17 @@
+{
+	"name": "base-apparel-coming-soon-master",
+	"version": "1.0.0",
+	"description": "This is a solution to the [Base Apparel coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon -e scss -x \"npm run sass\"",
+		"sass": "sass sass/main.scss css/style.css --no-source-map"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^3.1.9",
+		"sass": "^1.83.0"
+	}
+}
